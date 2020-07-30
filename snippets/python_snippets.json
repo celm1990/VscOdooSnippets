@@ -46,6 +46,15 @@
         ],
         "description": "Add model"
     },
+    "Model inherit": {
+        "prefix": "oomodeli",
+        "body": [
+            "class ${1:ModuleName}(models.${2|Model,AbstractModel,TransientModel|}):",
+            "\t_inherit = '${3:module.name}'",
+            "\n\t"
+        ],
+        "description": "Add inherit model"
+    },
     "Char field": {
         "prefix": "oofchar",
         "body": [

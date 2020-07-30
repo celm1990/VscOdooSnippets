@@ -47,6 +47,7 @@ manifest | Add manifest json
 import | Add an import
 fimport | Add an import from
 model | Add model
+modeli | Add inherit model
 fchar | Add char field
 ftext | Add text field
 fhtml | Add html field
